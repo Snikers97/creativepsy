@@ -23,7 +23,7 @@
                 <a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="Գլխավոր.html" style="padding: 10px 20px;">Գլխավոր</a>
               </li>
               <li class="u-nav-item">
-                <a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="Մեր-մասին.html" style="padding: 10px 20px;">Մեր մասին</a>
+                <a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="/aboutUs.php" style="padding: 10px 20px;">Մեր մասին</a>
               </li>
               <li class="u-nav-item">
                 <a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="#carousel_a7df" style="padding: 10px 20px;">Հետադարձ կապ</a>
@@ -37,7 +37,7 @@
                 <div class="u-menu-close"></div>
                 <ul class="u-align-center u-nav u-popupmenu-items u-unstyled u-nav-2">
                   <li class="u-nav-item"><a class="u-button-style u-nav-link" href="Գլխավոր.html" style="padding: 10px 20px;">Գլխավոր</a></li>
-                  <li class="u-nav-item"><a class="u-button-style u-nav-link" href="Մեր-մասին.html" style="padding: 10px 20px;">Մեր մասին</a></li>
+                  <li class="u-nav-item"><a class="u-button-style u-nav-link" href="/aboutUs.php" style="padding: 10px 20px;">Մեր մասին</a></li>
                   <li class="u-nav-item"><a class="u-button-style u-nav-link" href="#carousel_a7df" style="padding: 10px 20px;">Հետադարձ կապ</a></li>
                 </ul>
               </div>
