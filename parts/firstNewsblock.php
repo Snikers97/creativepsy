@@ -10,7 +10,7 @@
                 <p class="u-align-center-xs u-text u-text-black u-text-4">Image from&nbsp;<b>
                     <a href="https://www.freepik.com/free-photos-vectors/man" target="_blank">Freepik</a></b>
                 </p>
-                <a href="https://nicepage.com/k/adult-website-templates" class="u-active-white u-btn u-btn-rectangle u-button-style u-custom-font u-heading-font u-hover-white u-palette-3-base u-radius-0 u-btn-1">read more</a>
+                <a href="https://nicepage.com/k/adult-website-templates" class="u-active-white u-btn u-btn-rectangle u-button-style u-custom-font u-heading-font u-hover-white u-palette-3-base u-radius-0 u-btn-1">Կարդալ Ավելին</a>
               </div>
             </div>
             <div class="u-align-left u-container-style u-image u-layout-cell u-right-cell u-size-32 u-image-1">
