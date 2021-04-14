@@ -1,5 +1,5 @@
 .u-section-1 {
-  background-image: url("images/PA7BIF1x.jpg");
+  background-image: url("/images/PA7BIF1x.jpg");
   background-position: 50% 50%;
   min-height: 607px;
 }
@@ -46,7 +46,7 @@
 
 .u-section-1 .u-image-1 {
   min-height: 607px;
-  background-image: url("images/z-min.jpg");
+  background-image: url("/images/z-min.jpg");
   background-position: 50% 50%;
 }
 
@@ -598,7 +598,7 @@
     margin-top: 10px;
   }
 }.u-section-3 {
-  background-image: url("images/5ae9c49e-7cad-c9e5-2446-718a68ef0cdb.jpg");
+  background-image: url("/images/5ae9c49e-7cad-c9e5-2446-718a68ef0cdb.jpg");
   background-position: 50% 50%;
   min-height: 565px;
 }
@@ -658,7 +658,7 @@
 
 .u-section-3 .u-image-1 {
   min-height: 599px;
-  background-image: url("images/3565087ff.jpg");
+  background-image: url("/images/3565087ff.jpg");
   background-position: 0% 50%;
 }
 
@@ -777,7 +777,7 @@
     background-position: 59.33% 50%;
   }
 }.u-section-4 {
-  background-image: url("images/pexels-photo-3906049.jpeg");
+  background-image: url("/images/pexels-photo-3906049.jpeg");
   background-position: 0% 50.8%;
   background-size: 115%;
 }
@@ -971,7 +971,7 @@
 
 .u-section-5 .u-image-1 {
   min-height: 390px;
-  background-image: url("images/rfgd-min.jpg");
+  background-image: url("/images/rfgd-min.jpg");
   background-position: 50% 50%;
 }
 
