@@ -16941,6 +16941,7 @@ p {
 }
 .u-social-icons .u-icon {
   display: flex;
+  width: 32px !important;
   height: 100% !important;
 }
 .u-social-icons .u-social-url,
