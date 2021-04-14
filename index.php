@@ -32,8 +32,8 @@
       include("parts/headSlider.php");
       include("parts/projectsBlock.php");
       include("parts/firstNewsblock.php");
-      include("parts/secondNewsBlock.php");
-      include("parts/thirdNewsBlock.php");
+      include("parts/secondNewsblock.php");
+      include("parts/thirdNewsblock.php");
       include("parts/socialMedia.php");
       include("parts/partners.php");
       include("parts/contactUs.php");
