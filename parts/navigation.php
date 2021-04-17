@@ -1,6 +1,6 @@
 <header class="u-clearfix u-header u-header" id="sec-4b75">
     <div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
-        <a href="https://nicepage.com" class="u-image u-logo u-image-1">
+        <a href="https://creativepsy.am" class="u-image u-logo u-image-1">
           <img src="images/default-logo.png" class="u-logo-image u-logo-image-1">
         </a>
         <nav class="u-menu u-menu-dropdown u-offcanvas u-menu-1">
@@ -20,7 +20,7 @@
           <div class="u-custom-menu u-nav-container">
             <ul class="u-nav u-unstyled u-nav-1">
               <li class="u-nav-item">
-                <a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="Գլխավոր.html" style="padding: 10px 20px;">Գլխավոր</a>
+                <a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="/index.php" style="padding: 10px 20px;">Գլխավոր</a>
               </li>
               <li class="u-nav-item">
                 <a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="/aboutUs.php" style="padding: 10px 20px;">Մեր մասին</a>
@@ -36,7 +36,7 @@
               <div class="u-sidenav-overflow">
                 <div class="u-menu-close"></div>
                 <ul class="u-align-center u-nav u-popupmenu-items u-unstyled u-nav-2">
-                  <li class="u-nav-item"><a class="u-button-style u-nav-link" href="Գլխավոր.html" style="padding: 10px 20px;">Գլխավոր</a></li>
+                  <li class="u-nav-item"><a class="u-button-style u-nav-link" href="/index.php" style="padding: 10px 20px;">Գլխավոր</a></li>
                   <li class="u-nav-item"><a class="u-button-style u-nav-link" href="/aboutUs.php" style="padding: 10px 20px;">Մեր մասին</a></li>
                   <li class="u-nav-item"><a class="u-button-style u-nav-link" href="#carousel_a7df" style="padding: 10px 20px;">Հետադարձ կապ</a></li>
                 </ul>
