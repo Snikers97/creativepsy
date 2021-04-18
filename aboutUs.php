@@ -31,7 +31,7 @@
     <?php 
       include("parts/customNav.php"); 
       include("parts/ourTeam.php");
-      include("parts/footer.php");
+      include("parts/customFooter.php");
     ?>
     <script class="u-script" type="text/javascript" src="js/jquery.js" defer=""></script>
   </body>
