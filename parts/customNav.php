@@ -1,4 +1,4 @@
-<nav class="navbar navbar-text" style="height:74px;">
+<nav class="navbar navbar-text" style="height:80px;">
     <div class="container" style="max-width: 1164px;">
         <div class="navbar-header">
             <a href="https://creativepsy.am" class="navbar-brand">
