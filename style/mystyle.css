@@ -10,3 +10,23 @@
 .logoimg{
     height: 32px;
 }
+.customBgcolor{
+    background-color: #FFD741;
+}
+.customTitle{
+    font-size: 4.5rem;
+    font-weight: 400;
+    color: #db545a !important;
+    font-family: Oswald, sans-serif !important;
+    margin: 58px auto 0;
+}
+.customDesc{
+    font-style: italic;
+    width: 600px;
+    margin: 16px auto 0;
+    text-align: center;
+    color: #111111;
+    line-height: 1.6;
+    font-size: 1rem;
+}
+
