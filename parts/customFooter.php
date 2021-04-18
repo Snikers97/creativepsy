@@ -1,6 +1,6 @@
 <footer class="container-fluid footer customBgfooter">
     <div class="container p-4 text-center">
-        <p class="text-white">Ստեղծագործ հոգեբանություն ՍՊԸ</p>
+        <p class="text-white text-uppercase">Ստեղծագործ հոգեբանություն ՍՊԸ</p>
         <p class="text-white">Բոլոր իրավունքները պաշտպանված են 2021</p>
         <p class="text-white">
           <a href="https://nicepage.com/" target="_blank">
