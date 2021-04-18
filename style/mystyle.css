@@ -1,0 +1,12 @@
+.customMenucolorBlue{
+    color: #478ac9 !important;
+}
+.nav-item > a:hover{
+    color: #db545a !important;
+}
+.nav-item{
+    padding: 10px 20px;
+}
+.logoimg{
+    height: 32px;
+}
