@@ -7,8 +7,7 @@
     <meta name="description" content="">
     <meta name="page_type" content="np-template-header-footer-from-plugin">
     <title>Գլխավոր</title>
-    <link rel="stylesheet" href="style/nicepage.css" media="screen">
-    <link rel="stylesheet" href="style/aboutUs.css" media="screen">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
     <link rel="stylesheet" href="style/mystyle.css" media="screen">
     <link id="u-theme-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i">
     <link id="u-page-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i">
@@ -28,13 +27,12 @@
     <link rel="canonical" href="index.php">
     <meta property="og:url" content="index.php">
   </head>
-  <body class="u-body">
+  <body>
     <?php 
-      include("parts/navigation.php"); 
+      include("parts/customNav.php"); 
       include("parts/ourTeam.php");
       include("parts/footer.php");
     ?>
     <script class="u-script" type="text/javascript" src="js/jquery.js" defer=""></script>
-    <script class="u-script" type="text/javascript" src="js/nicepage.js" defer=""></script>
   </body>
 </html>
