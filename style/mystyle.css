@@ -35,12 +35,10 @@
     margin: 0;
 }
 .teamMembers{
-    margin: 44px auto 0 0;
+    margin: 44px auto 44px 0;
     width: 100% !important;
     margin-left: 0 !important;
     margin-right: 0 !important;
-    padding: 0px 89px 30px 89px;
-
 }
 .team{
     min-height: 100%;
@@ -52,13 +50,21 @@
     max-width: 100%;
 }
 #member{
-    padding:26px;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2rem;
 }
-#member > h3{
+.membersName{
     text-transform: uppercase;
     font-size: 1.5rem;
-    margin-top: 64px;
+    margin-top: 80px;
+   
+}
+.memberBlock{
+    display: flex;
+    flex-direction: column;
 }
 .position{
     font-weight: 700;
@@ -69,7 +75,7 @@
 }
 .aboutMember{
     font-style: italic;
-    margin: 23px 0 0;
+    margin: 23px;
 }
 .customBgcolor{
     background-color: #FFD741;
@@ -86,7 +92,7 @@
 }
 .customDesc{
     font-style: italic;
-    width: 600px;
+    max-width: 600px;
     margin: 16px auto 0;
     text-align: center;
     color: #111111;
@@ -116,6 +122,6 @@
     font-size: 0.875rem;
 }
 .imgHeight{
-    min-height: 398px;
+    min-height: 393px;
 }
 
