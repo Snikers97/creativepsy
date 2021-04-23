@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="style/mystyle.css" media="screen">
     <link id="u-theme-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i">
     <link id="u-page-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i">
+    <link rel="stylesheet" href="/style/activityTimeline/jtimeline.css" />
     
     
     <script type="application/ld+json">{
@@ -31,8 +32,33 @@
     <?php 
       include("parts/customNav.php"); 
       include("parts/ourTeam.php");
+      include("parts/activityTimeline.php");
       include("parts/customFooter.php");
     ?>
-    <script class="u-script" type="text/javascript" src="js/jquery.js" defer=""></script>
+    <!-- <script class="u-script" type="text/javascript" src="js/jquery.js" defer=""></script> -->
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+    <script src="js/jtimeline.js"></script>
+    <script>
+        $(document).ready(function () {
+          $('#jtimeline-demo').jTimeline({
+
+// pixels per second
+resolution: 50000, 
+
+// minimum spacing between events
+minimumSpacing: 200, 
+
+// scrolling (translateX) step size
+step: 200, 
+
+// character for left arrow
+leftArrow: "&larr;", 
+
+// character for right arrow
+rightArrow: "&rarr;", 
+
+});
+        });
+    </script>
   </body>
 </html>
