@@ -1,4 +1,4 @@
-<section class="u-align-center u-clearfix u-section-2" id="carousel_68e0">
+<section class="u-align-center u-clearfix u-section-2 blocksColor" id="carousel_68e0">
       <div class="u-clearfix u-sheet u-valign-middle-lg u-valign-middle-md u-valign-middle-sm u-valign-middle-xl u-sheet-1">
         <h2 class="u-text u-text-1">Մեր նախագծերը<br>
         </h2>

@@ -1,4 +1,4 @@
-<section class="u-align-center u-black u-clearfix u-section-8" id="carousel_a7df">
+<section class="u-align-center u-black u-clearfix u-section-8 blocksColor" id="carousel_a7df">
       <div class="u-clearfix u-sheet u-sheet-1">
         <h1 class="u-text u-text-grey-75 u-text-1">contact</h1>
         <h2 class="u-text u-text-palette-3-base u-text-2">Հետադարձ կապ</h2>
