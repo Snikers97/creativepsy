@@ -1,7 +1,7 @@
 <section class="container-fluid blocksColor">
     <div class="container" style="display: flex; flex-direction: column; max-width: 1164px;">
-                <h1 class="customTitle customToppaddingH1">Մեր Թիմը</h1>
-                <p class="customDesc customToppaddingH2">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <h1 class="customTitle customToppaddingH1 whiteColor">Մեր Թիմը</h1>
+                <p class="customDesc customToppaddingH2 whiteColor">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
             <div class="col-xxl teamMembers">
                 <div class="row">
                     <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 p-0 card-block">

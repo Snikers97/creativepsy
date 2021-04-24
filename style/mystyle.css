@@ -13,6 +13,12 @@
 .linkCustomclolor{
     color: #adcce9;
 }
+.whiteColor{
+    color: #FFFFFF !important;
+}
+.h2Title{
+    font-size: 3.5rem!important;
+}
 .navLogo{
     vertical-align: 0px;
     display: block;
@@ -93,7 +99,6 @@
 .customTitle{
     font-size: 4.5rem;
     font-weight: 400;
-    color: #FFFFFF !important;
     font-family: Oswald, sans-serif !important;
     margin: 58px auto 0;
 }
@@ -102,7 +107,6 @@
     max-width: 600px;
     margin: 16px auto 0;
     text-align: center;
-    color: #FFFFFF;
     line-height: 1.6;
     font-size: 1rem;
 }

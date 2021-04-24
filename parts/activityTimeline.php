@@ -1,5 +1,7 @@
 <section class="container-fluid">
 <div class="container" style="display: flex; flex-direction: column; max-width: 1164px;">
+  <h3 class="customTitle customToppaddingH1 textColor h2Title">Ծավալված գործունեություն</h3>
+  <p class="customDesc customToppaddingH2 textColor">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
   <div id="jtimeline-demo" class="jtimeline">
     <ul class="jtimeline-events">
       <li class="jtimeline-event" data-timestamp="1591416000">
