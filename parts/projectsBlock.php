@@ -5,7 +5,7 @@
         <p class="u-text u-text-2">Sample text. Click to select the text box. Click again or double click to start editing the text.</p>
         <div class="u-expanded-width u-list u-list-1">
           <div class="u-repeater u-repeater-1">
-            <div class="u-container-style u-list-item u-repeater-item" data-href="https://nicepage.com/k/auto-mechanic-html-templates">
+            <div class="u-container-style u-list-item u-repeater-item" data-href="/psycamp.php">
               <div class="u-container-layout u-similar-container u-container-layout-1">
                 <h1 class="u-align-center u-text u-text-palette-3-light-2 u-text-3">1</h1>
                 <h3 class="u-align-center u-text u-text-4">PsyCamp</h3>
