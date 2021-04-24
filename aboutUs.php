@@ -6,7 +6,7 @@
     <meta name="keywords" content="online training programs, Մեր նախագծերը, 1, 2, 3, 4, 5, 6, Life is Good, why us, Results &amp; Partnerships, ՄԵր գործընկերները, contact, Հետադարձ կապ, don't be shy">
     <meta name="description" content="">
     <meta name="page_type" content="np-template-header-footer-from-plugin">
-    <title>Գլխավոր</title>
+    <title>Մեր մասին</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
     <link rel="stylesheet" href="style/mystyle.css" media="screen">
     <link id="u-theme-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i">
@@ -38,27 +38,6 @@
     <!-- <script class="u-script" type="text/javascript" src="js/jquery.js" defer=""></script> -->
     <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
     <script src="js/jtimeline.js"></script>
-    <script>
-        $(document).ready(function () {
-          $('#jtimeline-demo').jTimeline({
-
-// pixels per second
-resolution: 50000, 
-
-// minimum spacing between events
-minimumSpacing: 200, 
-
-// scrolling (translateX) step size
-step: 200, 
-
-// character for left arrow
-leftArrow: "&larr;", 
-
-// character for right arrow
-rightArrow: "&rarr;", 
-
-});
-        });
-    </script>
+    <script src="js/script.js"></script>
   </body>
 </html>
