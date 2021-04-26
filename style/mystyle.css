@@ -145,3 +145,24 @@
     }
 
 }
+
+.annonBlock-1{
+    flex: 0 0 66.66666667%;
+    max-width: 66.66666667%;
+}
+.annonBlock-2{
+    flex: 0 0 33.33333333%;
+    max-width: 33.33333333%;
+}
+.announcement-item{
+    width: 100%;
+    flex: 0 0 50%;
+}
+.announcement-item։hover{
+    border: 5px solid white!important;
+}
+.announcement-widget{
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 20px;
+}
