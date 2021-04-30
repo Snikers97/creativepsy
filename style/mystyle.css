@@ -102,6 +102,11 @@
     font-family: Oswald, sans-serif !important;
     margin: 58px auto 0;
 }
+.customWidgetitle{
+    font-size: 2.5rem;
+    font-weight: 400;
+    font-family: Oswald, sans-serif !important;
+}
 .customDesc{
     font-style: italic;
     max-width: 600px;
@@ -157,12 +162,48 @@
 .announcement-item{
     width: 100%;
     flex: 0 0 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background-image: url('/images/test/travel.jpg'); 
+    background-size: cover; 
+    min-height:278px;
+    transition: 0.5s ease-in-out;
+    border: 5px solid #017479;
 }
-.announcement-item։hover{
-    border: 5px solid white!important;
+/* .announcement-item::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 0;
+    z-index: -1;
+    background-image: linear-gradient(0deg, rgba(0,0,0,0.45), rgba(0,0,0,0.45)), url('/images/test/travel.jpg');; 
+    background-size: cover; 
+    min-height:278px;
+} */
+.announcement-item:hover{
+    transition: all .5s ease-in-out;
+    /* transform: scale(1.033); */
+    /* height: 100%; */
 }
 .announcement-widget{
     display: flex;
     flex-wrap: wrap;
     padding-bottom: 20px;
+}
+.announcement-item > h6{
+    font-weight: bold;
+    line-height: 27px;
+    opacity: 0;
+    transition: 0.5s ease-in-out;
+    
+}
+.announcement-item:hover > h6{
+    transition: 0.5s ease-in-out;
+   z-index: 999;
+   background-color: #ffffffc7;
+   margin-bottom: 0rem;
+    padding: 4%;
+    opacity: 1;
 }
