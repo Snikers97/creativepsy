@@ -14,7 +14,7 @@
             <div class="col-xl-3 announcement-item p-0" style="background-image: url('/images/test/m.jpg'); background-size: cover; min-height:278px;">
                 <h6>Անձնային աճ. ճանաչիր և ակտիվացրու ներքին ռեսուրսներդ</h6>
             </div>
-            <div class="col-xl-3 announcement-item p-0" style="background-image: url('http://images02.nicepage.io/c461c07a441a5d220e8feb1a/ee77c4c44a545f51bfa839a1/erw.jpg'); background-size: cover; min-height:278px; flex:none;">
+            <div class="col-xl-3 announcement-item p-0" style="background-image: url('/images/test/1DrIeh.jpg'); background-size: cover; min-height:278px; flex:none;">
                 <h6>Անձնային աճ. ճանաչիր և ակտիվացրու ներքին ռեսուրսներդ</h6>
             </div>
         </div>
