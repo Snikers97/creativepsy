@@ -8,7 +8,7 @@
         <div>
             <ul class="nav justify-content-end">
                 <li class="nav-item">
-                    <a class="nav-link customMenucolorBlue active" aria-current="page" href="/index.php">Գլխավոր</a>
+                    <a class="nav-link text-dark" aria-current="page" href="/index.php">Գլխավոր</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link text-dark" aria-current="page" href="aboutUs.php">Մեր մասին</a>

@@ -248,7 +248,7 @@
 }
 @media (max-width: 570px){
     .customTitle{
-        font-size: 2.5rem;
+        font-size: 2.5rem!important;
     }
     .customWidgetitle{
         font-size: 1.5rem;
