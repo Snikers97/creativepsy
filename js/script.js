@@ -17,4 +17,10 @@ leftArrow: "&larr;",
 rightArrow: "&rarr;", 
 
 });
-  });
+
+$(".scroll").mCustomScrollbar({
+  scrollButtons:{enable:true},
+  theme:"light-thick",
+  scrollbarPosition:"outside"
+});
+});

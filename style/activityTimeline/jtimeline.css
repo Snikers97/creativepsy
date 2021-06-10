@@ -83,7 +83,7 @@
   display: flex;
   justify-content: center;
   text-align: center;
-  background-color: #fafafa;
+  /* background-color: #fafafa; */
 }
 .jtimeline ul.jtimeline-events > li.jtimeline-event > .jtimeline-event-label:after {
   content: "";

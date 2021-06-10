@@ -12,7 +12,8 @@
     <link id="u-theme-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i">
     <link id="u-page-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i">
     <link rel="stylesheet" href="/style/activityTimeline/jtimeline.css" />
-    
+    <link rel="stylesheet" href="style/modal_window/jquery.fancybox.css" />
+    <link rel="stylesheet" href="style/modal_window/jquery.mCustomScrollbar.css" />
     
     <script type="application/ld+json">{
         "@context": "http://creativepsy.am",
@@ -35,9 +36,11 @@
       include("parts/activityTimeline.php");
       include("parts/customFooter.php");
     ?>
-    <!-- <script class="u-script" type="text/javascript" src="js/jquery.js" defer=""></script> -->
+    
     <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
     <script src="js/jtimeline.js"></script>
     <script src="js/script.js"></script>
+    <script src="js/jquery.fancybox.js"></script>
+    <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
   </body>
 </html>

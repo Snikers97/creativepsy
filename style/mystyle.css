@@ -330,3 +330,31 @@
     }
 }
 /* News block end */
+
+/* popUp */
+
+.customTimelineTitle{
+    font-size: 3rem;
+    font-weight: 400;
+    font-family: Oswald, sans-serif !important;
+    text-align: center;
+    padding: 17px;
+}
+
+.inPopupImage{
+    width:100%;
+}
+.inPopupImageScroll{
+    width:281px;
+}
+.inPopupText{
+    display: flex;
+    flex-direction: row;
+    text-align: justify;
+}
+.inPopupText > p{
+    padding: 20px;
+}
+
+
+
