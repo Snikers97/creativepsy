@@ -1,22 +1,24 @@
-<section class="u-align-center u-clearfix u-section-2 blocksColor" id="carousel_68e0">
+<section class="u-align-center u-clearfix u-section-2 blocksColor-2" id="carousel_68e0">
       <div class="u-clearfix u-sheet u-valign-middle-lg u-valign-middle-md u-valign-middle-sm u-valign-middle-xl u-sheet-1">
-        <h2 class="u-text u-text-1">Մեր նախագծերը<br>
+        <h2 class="u-text u-text-1 textColor">Մեր նախագծերը<br>
         </h2>
-        <p class="u-text u-text-2">Sample text. Click to select the text box. Click again or double click to start editing the text.</p>
+        <p class="u-text u-text-2 textColor">Sample text. Click to select the text box. Click again or double click to start editing the text.</p>
         <div class="u-expanded-width u-list u-list-1">
           <div class="u-repeater u-repeater-1">
             <div class="u-container-style u-list-item u-repeater-item" data-href="/psycamp.php">
               <div class="u-container-layout u-similar-container u-container-layout-1">
-                <h1 class="u-align-center u-text u-text-palette-3-light-2 u-text-3">1</h1>
+                <!-- <h1 class="u-align-center u-text u-text-palette-3-light-2 u-text-3">1</h1>
                 <h3 class="u-align-center u-text u-text-4">PsyCamp</h3>
-                <p class="u-align-center u-text u-text-5">Sample text. Click to select the text box. Click again or double click to start editing the text.</p>
+                <p class="u-align-center u-text u-text-5">Sample text. Click to select the text box. Click again or double click to start editing the text.</p> -->
+                <img src="images/projectlogo/1111.png" alt="" style="width:100%;">
               </div>
             </div>
             <div class="u-container-style u-list-item u-repeater-item" data-href="https://nicepage.com/c/technology-html-templates">
               <div class="u-container-layout u-similar-container u-container-layout-2">
-                <h1 class="u-align-center u-text u-text-palette-3-light-2 u-text-6">2</h1>
+                <!-- <h1 class="u-align-center u-text u-text-palette-3-light-2 u-text-6">2</h1>
                 <h3 class="u-align-center u-text u-text-7">PsyTour</h3>
-                <p class="u-align-center u-text u-text-8">Sample text. Click to select the text box. Click again or double click to start editing the text.</p>
+                <p class="u-align-center u-text u-text-8">Sample text. Click to select the text box. Click again or double click to start editing the text.</p> -->
+                <img src="images/projectlogo/2222.png" alt="" style="width:100%;">
               </div>
             </div>
             <div class="u-container-style u-list-item u-repeater-item">

@@ -24142,7 +24142,7 @@ a.u-link.u-hover-white:hover {
 .u-body.u-black,
 .u-container-style.u-black:before,
 .u-table-alt-black tr:nth-child(even) {
-  color: #ffffff;
+  color: #292e33;
   background-color: #000000;
 }
 .u-button-style.u-black,
@@ -28001,8 +28001,8 @@ li.active > a.u-button-style.u-button-style.u-border-active-grey-light-3 {
 }
 .u-border-white,
 .u-separator-white:after {
-  border-color: #ffffff;
-  stroke: #ffffff;
+  border-color: #017479;
+  stroke: #017479;
 }
 .u-button-style.u-border-white {
   border-color: #ffffff !important;
@@ -31530,7 +31530,7 @@ a.u-button-style.u-button-style.active > .u-text-active-palette-3-base[class*="u
 .u-button-style:hover > .u-text-hover-palette-3-base svg,
 .u-button-style.u-button-style.active > .u-text-active-palette-3-base svg,
 .u-text-hover-palette-3-base:focus svg {
-  fill: #f1c50e;
+  fill: #017479;
 }
 .u-link.u-text-palette-3-base:hover {
   color: #d9b10d !important;

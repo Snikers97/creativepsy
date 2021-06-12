@@ -1,4 +1,4 @@
-<section class="u-clearfix u-image u-section-1" id="carousel_7288">
+<section class="u-clearfix u-image u-section-1 blocksColor-3" id="carousel_7288">
       <div class="u-clearfix u-layout-wrap u-layout-wrap-1">
         <div class="u-layout">
           <div class="u-layout-row">
