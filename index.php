@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="style/mystyle.css" media="screen">
     <link id="u-theme-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i">
     <link id="u-page-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i">
+    <link rel="stylesheet" href="style/slider/flickity.css" media="screen">
         
     <script type="application/ld+json">{
         "@context": "http://creativepsy.am",
@@ -42,5 +43,7 @@
     ?>
     <script class="u-script" type="text/javascript" src="js/jquery.js" defer=""></script>
     <script class="u-script" type="text/javascript" src="js/nicepage.js" defer=""></script>
+    <script src="js/flickity.pkgd.min.js"></script>
+    <script src="js/script.js"></script>
   </body>
 </html>

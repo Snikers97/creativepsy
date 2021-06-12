@@ -362,5 +362,16 @@
     padding: 20px;
 }
 
-
-
+#slide{
+    width: 100%!important; 
+    margin: 0 auto;
+}
+#sliderText{
+    padding:0px; 
+    padding-left:45px;
+}
+@media (max-width: 767px){
+    #sliderText{
+        text-align: center;
+    }
+}

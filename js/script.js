@@ -23,4 +23,5 @@ $(".scroll").mCustomScrollbar({
   theme:"light-thick",
   scrollbarPosition:"outside"
 });
+
 });
