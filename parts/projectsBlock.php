@@ -7,22 +7,16 @@
           <div class="u-repeater u-repeater-1">
             <div class="u-container-style u-list-item u-repeater-item" data-href="/psycamp.php">
               <div class="u-container-layout u-similar-container u-container-layout-1">
-                <!-- <h1 class="u-align-center u-text u-text-palette-3-light-2 u-text-3">1</h1>
-                <h3 class="u-align-center u-text u-text-4">PsyCamp</h3>
-                <p class="u-align-center u-text u-text-5">Sample text. Click to select the text box. Click again or double click to start editing the text.</p> -->
                 <img src="images/projectlogo/psycamp.png" alt="" style="width:100%;">
               </div>
             </div>
-            <div class="u-container-style u-list-item u-repeater-item" data-href="https://nicepage.com/c/technology-html-templates">
+            <div class="u-container-style u-list-item u-repeater-item" data-href="#">
               <div class="u-container-layout u-similar-container u-container-layout-2">
-                <!-- <h1 class="u-align-center u-text u-text-palette-3-light-2 u-text-6">2</h1>
-                <h3 class="u-align-center u-text u-text-7">PsyTour</h3>
-                <p class="u-align-center u-text u-text-8">Sample text. Click to select the text box. Click again or double click to start editing the text.</p> -->
                 <img src="images/projectlogo/psytour.png" alt="" style="width:100%;">
               </div>
             </div>
             <div class="u-container-style u-list-item u-repeater-item">
-              <div class="u-container-layout u-similar-container u-container-layout-3">
+              <div class="u-container-layout u-similar-container u-container-layout-3" data-href="#">
                 <h1 class="u-align-center u-text u-text-palette-3-light-2 u-text-9">3</h1>
                 <h3 class="u-align-center u-text u-text-10">Թրեյնինգներ</h3>
                 <p class="u-align-center u-text u-text-11">Sample text. Click to select the text box. Click again or double click to start editing the text.</p>
