@@ -10,7 +10,7 @@
                 <!-- <h1 class="u-align-center u-text u-text-palette-3-light-2 u-text-3">1</h1>
                 <h3 class="u-align-center u-text u-text-4">PsyCamp</h3>
                 <p class="u-align-center u-text u-text-5">Sample text. Click to select the text box. Click again or double click to start editing the text.</p> -->
-                <img src="images/projectlogo/1111.png" alt="" style="width:100%;">
+                <img src="images/projectlogo/psycamp.png" alt="" style="width:100%;">
               </div>
             </div>
             <div class="u-container-style u-list-item u-repeater-item" data-href="https://nicepage.com/c/technology-html-templates">
@@ -18,7 +18,7 @@
                 <!-- <h1 class="u-align-center u-text u-text-palette-3-light-2 u-text-6">2</h1>
                 <h3 class="u-align-center u-text u-text-7">PsyTour</h3>
                 <p class="u-align-center u-text u-text-8">Sample text. Click to select the text box. Click again or double click to start editing the text.</p> -->
-                <img src="images/projectlogo/2222.png" alt="" style="width:100%;">
+                <img src="images/projectlogo/psytour.png" alt="" style="width:100%;">
               </div>
             </div>
             <div class="u-container-style u-list-item u-repeater-item">
@@ -45,7 +45,7 @@
             <div class="u-container-style u-list-item u-repeater-item">
               <div class="u-container-layout u-similar-container u-container-layout-6">
                 <h1 class="u-align-center u-text u-text-palette-3-light-2 u-text-18">6</h1>
-                <h3 class="u-align-center u-text u-text-19">Branding</h3>
+                <h3 class="u-align-center u-text u-text-19">Թեմատիկ Պոդքաստեր</h3>
                 <p class="u-align-center u-text u-text-20">Sample text. Click to select the text box. Click again or double click to start editing the text.</p>
               </div>
             </div>

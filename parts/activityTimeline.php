@@ -27,7 +27,7 @@
 <div style="display: none; width: 80%; height: 100%;" id="hidden-content" class="scroll">
 <section class="container-fluid">
     <div class="container" style="display: flex; flex-direction: column; max-width: 1164px;">
-                <h1 class="customTimelineTitle">Անձնային աճ։ Ճանաչիր և ակտիվացրու ներքին ռեսուրսներդ</h1>
+            <h1 class="customTimelineTitle">Անձնային աճ։ Ճանաչիր և ակտիվացրու ներքին ռեսուրսներդ</h1>
             <div class="col-xxl-12">
                 <img class="inPopupImage"src="/images/pexels-photo-3906049.jpeg" alt="">
             </div>
@@ -41,13 +41,22 @@ Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
               </p>
             </div>
-            <div class="col-xxl-12">
+            <div class="fotorama col-xxl-12" data-nav="thumbs" data-loop="true">
+                <img src="https://s.fotorama.io/1.jpg">
+                <img src="https://s.fotorama.io/2.jpg">
                 <img class="inPopupImageScroll"src="/images/pexels-photo-3906049.jpeg" alt="">
                 <img class="inPopupImageScroll"src="/images/pexels-photo-3906049.jpeg" alt="">
                 <img class="inPopupImageScroll"src="/images/pexels-photo-3906049.jpeg" alt="">
                 <img class="inPopupImageScroll"src="/images/pexels-photo-3906049.jpeg" alt="">
             </div>
-    </div>
+            <div class="col-xxl-12 inPopupText">
+              <p>
+              What is Lorem Ipsum?
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.What is Lorem Ipsum?
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+              </p>
+            </div>
+</div>
 </section>
 </div>
 

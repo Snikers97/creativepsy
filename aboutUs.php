@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="/style/activityTimeline/jtimeline.css" />
     <link rel="stylesheet" href="style/modal_window/jquery.fancybox.css" />
     <link rel="stylesheet" href="style/modal_window/jquery.mCustomScrollbar.css" />
+    <link rel="stylesheet" href="style/slider/flickity.css" media="screen">
     
     <script type="application/ld+json">{
         "@context": "http://creativepsy.am",
@@ -42,5 +43,9 @@
     <script src="js/script.js"></script>
     <script src="js/jquery.fancybox.js"></script>
     <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+    <script src="js/flickity.pkgd.min.js"></script>
+    <link  href="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet">  
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script>
+
   </body>
 </html>
