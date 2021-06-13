@@ -1,3 +1,16 @@
+<?
+require_once ('config.php');
+require_once ('function.php');
+
+$to      = 'psychologicalcamp@gmail.com';
+$subject = 'Նամակ կայքի օգտատերից';
+$message = $_POST['message'];
+$headers = 'From:'.$_POST['email'].''. "\r\n" .
+             'Դիմող:'.$_POST['name'].''. "\r\n" .
+             'X-Mailer: PHP/' . phpversion();
+
+mail($to, $subject, $message, $headers);
+?>
 <!DOCTYPE html>
 <html style="font-size: 16px;">
   <head>

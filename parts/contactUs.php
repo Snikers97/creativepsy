@@ -34,7 +34,7 @@
               <div class="u-container-style u-layout-cell u-right-cell u-size-40 u-layout-cell-2">
                 <div class="u-container-layout u-container-layout-2">
                   <div class="u-expanded-width u-form u-form-1">
-                    <form action="#" method="POST" class="u-clearfix u-form-spacing-19 u-form-vertical u-inner-form" style="padding: 10px" source="custom" name="form">
+                    <form action="index.php" method="POST" class="u-clearfix u-form-spacing-19 u-form-vertical u-inner-form" style="padding: 10px" source="custom" name="form">
                       <div class="u-form-group u-form-name u-form-group-1">
                         <label for="name-dee9" class="u-form-control-hidden u-label">Name</label>
                         <input type="text" placeholder="Մուտքագրեք Ձեր անունը ազգանունը" id="name-dee9" name="name" class="u-border-2 u-border-white u-input u-input-rectangle" required="">
