@@ -1,15 +1,16 @@
 <?
 require_once ('config.php');
 require_once ('function.php');
-
-$to      = 'psychologicalcamp@gmail.com';
-$subject = 'Նամակ կայքի օգտատերից';
-$message = $_POST['message'];
-$headers = 'From:'.$_POST['email'].''. "\r\n" .
-             'Դիմող:'.$_POST['name'].''. "\r\n" .
-             'X-Mailer: PHP/' . phpversion();
-
-mail($to, $subject, $message, $headers);
+if($_POST['submit'] == 'submit'){
+  $to      = 'psychologicalcamp@gmail.com';
+  $subject = 'Նամակ կայքի օգտատերից';
+  $message = $_POST['message'];
+  $headers = 'From:'.$_POST['email'].''. "\r\n" .
+               'Դիմող:'.$_POST['name'].''. "\r\n" .
+               'X-Mailer: PHP/' . phpversion();
+  
+  mail($to, $subject, $message, $headers);
+}
 ?>
 <!DOCTYPE html>
 <html style="font-size: 16px;">
@@ -58,5 +59,11 @@ mail($to, $subject, $message, $headers);
     <script class="u-script" type="text/javascript" src="js/nicepage.js" defer=""></script>
     <script src="js/flickity.pkgd.min.js"></script>
     <script src="js/script.js"></script>
+    <script>
+var campPhoto = document.getElementById("newsPhoto");
+var newCampPhoto = campPhoto.getAttribute('data-photo');
+document.getElementById("newsPhoto").style.backgroundImage = 'url('+newCampPhoto+')';
+      
+    </script>
   </body>
 </html>
