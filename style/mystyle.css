@@ -380,6 +380,9 @@
     margin: 0 auto;
 }
 
-
-
-
+  .tourTopNewsBlock{
+    background: white;
+    padding: 29px;
+    width: 559px;
+    margin-top: 79px;
+  }

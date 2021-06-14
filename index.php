@@ -60,9 +60,13 @@ if($_POST['submit'] == 'submit'){
     <script src="js/flickity.pkgd.min.js"></script>
     <script src="js/script.js"></script>
     <script>
-var campPhoto = document.getElementById("newsPhoto");
-var newCampPhoto = campPhoto.getAttribute('data-photo');
-document.getElementById("newsPhoto").style.backgroundImage = 'url('+newCampPhoto+')';
+      var campPhoto = document.getElementById("newsPhoto");
+      var newCampPhoto = campPhoto.getAttribute('data-campphoto');
+      document.getElementById("newsPhoto").style.backgroundImage = 'url('+newCampPhoto+')';
+
+      var tourPhoto = document.getElementById("carousel_7f77");
+      var newtourPhoto = tourPhoto.getAttribute('data-tourphoto');
+      document.getElementById("carousel_7f77").style.backgroundImage = 'url('+newtourPhoto+')';
       
     </script>
   </body>

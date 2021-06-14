@@ -2,7 +2,7 @@
       <div class="u-clearfix u-layout-wrap u-layout-wrap-1">
         <div class="u-gutter-0 u-layout">
           <div class="u-layout-row">
-          <? getNewsPsyCamp($db_connect); ?>
+          <? getTopNewsPsyCamp($db_connect); ?>
           </div>
         </div>
       </div>
