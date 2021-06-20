@@ -42,18 +42,6 @@ function getPartners($db_connect){
   }
 }
 
-function getPartnersAbout($db_connect){
-    $sql = "SELECT about_text FROM partners";
-    $result = mysqli_query($db_connect, $sql);
-    if (isset($result) and $result != NULL){
-      while($data = mysqli_fetch_assoc($result)){
-         echo '
-         <p class="u-text u-text-2">'.$data['about_text'].'</p>
-          ';  
-    }
-  }
-}
-
 function getTopNewsPsyCamp($db_connect){
   $sql = "SELECT * FROM `news` as n LEFT JOIN `user` as u ON n.autorID = u.id WHERE n.category = 'psycamp' AND n.top = 1";
   $result = mysqli_query($db_connect, $sql);
@@ -74,6 +62,26 @@ function getTopNewsPsyCamp($db_connect){
       <div class="u-align-left u-container-style u-image u-layout-cell u-right-cell u-size-32 u-image-1" id="newsPhoto" data-campphoto="/images/'.$data['mainPhoto'].'">
         <div class="u-container-layout u-valign-bottom u-container-layout-2"></div>
       </div>
+      ';
+    }
+}
+}
+
+function getNewsPsyCamp($db_connect){
+  $sql = "SELECT * FROM `news` as n LEFT JOIN `user` as u ON n.autorID = u.id WHERE n.category = 'psycamp'";
+  $result = mysqli_query($db_connect, $sql);
+  if (isset($result) and $result != NULL){
+    while($data = mysqli_fetch_assoc($result)){
+      $short_desc = addslashes($data['short_desc']);
+      echo'
+      <div class="newsItem">
+      <img src="/images/'.$data['mainPhoto'].'" alt="" class="image">
+      <div class="shortNewstext">
+      <h3 class="whiteColor">'.$data['title'].'</h3>
+          <p class="whiteColor">'.$short_desc.'</p>
+          <a href="#" class="button">Կարդալ Ավելին</a>
+      </div>
+  </div>
       ';
     }
 }
@@ -120,6 +128,221 @@ function getTopNewsshuffle($db_connect){
                 <div class="u-container-layout u-valign-bottom u-container-layout-2"></div>
               </div>
       ';
+    }
+}
+}
+
+function getStaff($db_connect){
+  $sql = "SELECT * FROM `staff`";
+  $result = mysqli_query($db_connect, $sql);
+  if (isset($result) and $result != NULL){
+    while($data = mysqli_fetch_assoc($result)){
+      if($data['id']<=3){
+      switch($data['id']){
+        case($data['id']%2 != 0):
+        echo'
+        <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 p-0 card-block">
+        <div class="card border-0 rounded-0">
+            <img src="/images/ourTeam/'.$data['image'].'" class="card-img-top rounded-0" alt="...">
+            <div class="card-body text-center cardInfoblock w-100 h-100">
+                <h5 class="card-title membersName">'.$data['name'].'</h5>
+                <p class="card-text position">'.$data['role'].'</p>
+                <p class="card-text aboutMember">'.$data['info'].'</p>
+                <div class="socialIcon">
+                                    <a href="'.$data['fb'].'">
+                                        <img src="/images/socialIcons/facebook.png" alt="">
+                                    </a>
+                                    <a href="'.$data['insta'].'">
+                                        <img src="/images/socialIcons/instagram.png" alt="">
+                                    </a>
+                                    <a href="'.$data['telegram'].'">
+                                        <img src="/images/socialIcons/telegram.png" alt="">
+                                    </a>
+                                </div>
+            </div>
+        </div>
+        </div>
+        ';
+        break;
+        case($data['id']%2 == 0):
+        echo'
+        <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 p-0 card-block">
+        <div class="card border-0 rounded-0">
+            <div class="card-body text-center cardInfoblock w-100 h-100">
+                <h5 class="card-title membersName">'.$data['name'].'</h5>
+                <p class="card-text position">'.$data['role'].'</p>
+                <p class="card-text aboutMember">'.$data['info'].'</p>
+                <div class="socialIcon">
+                    <a href="'.$data['fb'].'">
+                        <img src="/images/socialIcons/facebook.png" alt="">
+                    </a>
+                    <a href="'.$data['insta'].'">
+                        <img src="/images/socialIcons/instagram.png" alt="">
+                    </a>
+                    <a href="'.$data['telegram'].'">
+                        <img src="/images/socialIcons/telegram.png" alt="">
+                    </a>
+                </div>
+            </div>
+            <img src="/images/ourTeam/'.$data['image'].'" class="card-img-bottom rounded-0" alt="...">
+        </div>
+        </div>
+        ';
+        break;
+      }
+    }elseif($data['id']>3){
+      switch($data['id']){
+        case($data['id']%2 == 0):
+        echo'
+        <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 p-0 card-block">
+        <div class="card border-0 rounded-0">
+            <img src="/images/ourTeam/'.$data['image'].'" class="card-img-top rounded-0" alt="...">
+            <div class="card-body text-center cardInfoblock w-100 h-100">
+                <h5 class="card-title membersName">'.$data['name'].'</h5>
+                <p class="card-text position">'.$data['role'].'</p>
+                <p class="card-text aboutMember">'.$data['info'].'</p>
+                <div class="socialIcon">
+                                    <a href="'.$data['fb'].'">
+                                        <img src="/images/socialIcons/facebook.png" alt="">
+                                    </a>
+                                    <a href="'.$data['insta'].'">
+                                        <img src="/images/socialIcons/instagram.png" alt="">
+                                    </a>
+                                    <a href="'.$data['telegram'].'">
+                                        <img src="/images/socialIcons/telegram.png" alt="">
+                                    </a>
+                                </div>
+            </div>
+        </div>
+        </div>
+        ';
+        break;
+        case($data['id']%2 != 0):
+        echo'
+        <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 p-0 card-block">
+        <div class="card border-0 rounded-0">
+            <div class="card-body text-center cardInfoblock w-100 h-100">
+                <h5 class="card-title membersName">'.$data['name'].'</h5>
+                <p class="card-text position">'.$data['role'].'</p>
+                <p class="card-text aboutMember">'.$data['info'].'</p>
+                <div class="socialIcon">
+                    <a href="'.$data['fb'].'">
+                        <img src="/images/socialIcons/facebook.png" alt="">
+                    </a>
+                    <a href="'.$data['insta'].'">
+                        <img src="/images/socialIcons/instagram.png" alt="">
+                    </a>
+                    <a href="'.$data['telegram'].'">
+                        <img src="/images/socialIcons/telegram.png" alt="">
+                    </a>
+                </div>
+            </div>
+            <img src="/images/ourTeam/'.$data['image'].'" class="card-img-bottom rounded-0" alt="...">
+        </div>
+        </div>
+        ';
+        break;
+      }
+    }
+        
+      }
+     
+    }
+}
+
+function getOurTeamBlockDesc($db_connect){
+  $sql = "SELECT * FROM `block_description` WHERE category = 'Team'";
+  $result = mysqli_query($db_connect, $sql);
+  if (isset($result) and $result != NULL){
+    while($data = mysqli_fetch_assoc($result)){
+      $desc = addslashes($data['description']);
+      echo'
+     <h1 class="customTitle customToppaddingH1 whiteColor">'.$data['title'].'</h1>
+     <p class="customDesc customToppaddingH2 whiteColor">'.$desc.'</p>
+      ';
+    }
+}
+}
+
+function getTimelineDesc($db_connect){
+  $sql = "SELECT * FROM `block_description` WHERE category = 'Timeline'";
+  $result = mysqli_query($db_connect, $sql);
+  if (isset($result) and $result != NULL){
+    while($data = mysqli_fetch_assoc($result)){
+      $desc = addslashes($data['description']);
+      echo'
+      <h3 class="customTitle customToppaddingH1 textColor h2Title">'.$data['title'].'</h3>
+      <p class="customDesc customToppaddingH2 textColor">'.$desc.'</p>
+      ';
+    }
+}
+}
+
+function getPartnersDesc($db_connect){
+  $sql = "SELECT * FROM `block_description` WHERE category = 'partners'";
+  $result = mysqli_query($db_connect, $sql);
+  if (isset($result) and $result != NULL){
+    while($data = mysqli_fetch_assoc($result)){
+      $desc = addslashes($data['description']);
+      echo'
+      <h2 class="u-text u-text-1">'.$data['title'].'</h2>
+      <p class="u-text u-text-2">'.$desc.'</p>
+      ';
+    }
+}
+}
+
+function getProjectsDesc($db_connect){
+  $sql = "SELECT * FROM `block_description` WHERE category = 'partners'";
+  $result = mysqli_query($db_connect, $sql);
+  if (isset($result) and $result != NULL){
+    while($data = mysqli_fetch_assoc($result)){
+      $desc = addslashes($data['description']);
+      echo'
+      <h2 class="u-text u-text-1 textColor">'.$data['title'].'</h2>
+      <p class="u-text u-text-2 textColor">'.$desc.'</p>
+      ';
+    }
+}
+}
+
+function getPsycampDesc($db_connect){
+  $sql = "SELECT * FROM `block_description` WHERE category = 'psycamp'";
+  $result = mysqli_query($db_connect, $sql);
+  if (isset($result) and $result != NULL){
+    while($data = mysqli_fetch_assoc($result)){
+      $desc = addslashes($data['description']);
+      echo'
+      <h1 class="customTitle customToppaddingH1 whiteColor">'.$data['title'].'</h1>
+      <p class="customDesc customToppaddingH2 whiteColor" style="margin-bottom:40px;">'.$desc.'</p>
+      ';
+    }
+}
+}
+
+function getpsycampAnnouncement($db_connect){
+  $sql = "SELECT * FROM project_announcement LIMIT 6";
+  $result = mysqli_query($db_connect, $sql);
+  if (isset($result) and $result != NULL){
+    while($data = mysqli_fetch_assoc($result)){
+        if($data['id'] == "1" OR $data['id'] == "6"){
+          echo'
+          <div class="col-xl-6 announcement-item-big-tile p-0" id="announTilebg" data-background="/images/test/'.$data['announcement_mainPhoto'].'">
+                <div class="announTitleBlock-big">
+                    <h6 class="announTitle">'.$data['announcement_tilte'].'</h6>
+                    <p>'.$data['announcement_short_desc'].'</p>
+                </div>
+          </div>
+          ';
+        }else{
+          echo'
+          <div class="col-xl-3 announcement-item p-0" id="announTilebg" data-background="/images/test/'.$data['announcement_mainPhoto'].'">
+            <div class="announTitleBlock">
+              <h6 class="announTitle">'.$data['announcement_tilte'].'</h6>
+            </div>
+          </div>
+          ';
+        }
     }
 }
 }

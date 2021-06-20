@@ -1,3 +1,7 @@
+<?
+require_once ('config.php');
+require_once ('function.php'); 
+?>
 <!DOCTYPE html>
 <html style="font-size: 16px;">
   <head>

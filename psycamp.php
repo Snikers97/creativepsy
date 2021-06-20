@@ -1,3 +1,7 @@
+<? 
+require_once ('config.php');
+require_once ('function.php'); 
+?>
 <!DOCTYPE html>
 <html style="font-size: 16px;">
   <head>
@@ -34,5 +38,13 @@
       include("parts/customFooter.php");
     ?>
     <script class="u-script" type="text/javascript" src="js/jquery.js" defer=""></script>
+    <script src="https://cdn.rawgit.com/briangonzalez/rgbaster.js/b2fb235b/rgbaster.min.js"></script>
+    <!-- <script>
+      var announcementBackground = document.getElementsByClassName("announcement-item");
+      for (var i = 0; i < announcementBackground.length; i++) {
+          var bg = announcementBackground[i].getAttribute('data-background');
+          announcementBackground[i].style.backgroundImage = 'url('+bg+')';
+      }    
+    </script> -->
   </body>
 </html>
