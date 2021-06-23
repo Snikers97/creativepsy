@@ -346,4 +346,57 @@ function getpsycampAnnouncement($db_connect){
     }
 }
 }
+
+
+function getactivityTimelinedots($db_connect){
+  $sql = "SELECT * FROM activity_timeline";
+  $result = mysqli_query($db_connect, $sql);
+  if (isset($result) and $result != NULL){
+    while($data = mysqli_fetch_assoc($result)){
+       echo '
+       <li class="jtimeline-event" id="event" data-timestamp="'.$data['date_f'].'" data-fancybox data-type="inline" data-src="#popUp'.$data['id'].'" href="javascript:;">
+       '.$data['date_s'].'<br />
+       '.$data['title'].'
+       </li>
+        ';  
+  }
+}
+}
+
+function getactivityTimelinetext($db_connect){
+  $sql = "SELECT * FROM activity_timeline";
+  $result = mysqli_query($db_connect, $sql);
+  if (isset($result) and $result != NULL){
+    while($data = mysqli_fetch_assoc($result)){
+      $paragraph = explode("§", $data['text']);
+      echo '
+        <div style="display:none; width: 80%; height: 100%;" id="#popUp'.$data['id'].'" class="scroll">
+        <section class="container-fluid">
+            <div class="container" style="display: flex; flex-direction: column; max-width: 1164px;">
+                    <h1 class="customTimelineTitle">'.$data['title'].'</h1>
+                    <div class="col-xxl-12">
+                        <img class="inPopupImage"src="/images/'.$data['mainPhoto'].'" alt="">
+                    </div>
+                    <div class="col-xxl-12 inPopupText">
+                      <p>'.$paragraph[0].'</p>
+                      <p>'.$paragraph[1].'</p>
+                    </div>
+                    <div class="fotorama col-xxl-12" data-nav="thumbs" data-loop="true">
+                        <img src="https://s.fotorama.io/1.jpg">
+                        <img src="https://s.fotorama.io/2.jpg">
+                        <img class="inPopupImageScroll"src="/images/pexels-photo-3906049.jpeg" alt="">
+                        <img class="inPopupImageScroll"src="/images/pexels-photo-3906049.jpeg" alt="">
+                        <img class="inPopupImageScroll"src="/images/pexels-photo-3906049.jpeg" alt="">
+                        <img class="inPopupImageScroll"src="/images/pexels-photo-3906049.jpeg" alt="">
+                    </div>
+                    <div class="col-xxl-12 inPopupText">
+                      <p>'.$paragraph[2].'</p>
+                    </div>
+        </div>
+        </section>
+        </div>
+                ';  
+}
+}
+}
 ?>

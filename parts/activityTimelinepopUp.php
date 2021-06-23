@@ -1,6 +1,6 @@
 <?
-require_once ('config.php');
-require_once ('function.php'); 
+require_once ('../config.php');
+require_once ('../function.php'); 
 ?>
 <!DOCTYPE html>
 <html style="font-size: 16px;">
@@ -35,20 +35,18 @@ require_once ('function.php');
     <meta property="og:url" content="index.php">
   </head>
   <body>
-    <?php 
-      include("parts/customNav.php"); 
-      include("parts/ourTeam.php");
-      include("parts/activityTimeline.php");
-      include("parts/customFooter.php");
-    ?>
-    
+  <section class="container-fluid">
+  <div class="container" style="display: flex; flex-direction: column; max-width: 1164px;">
+    <? getactivityTimelinetext($db_connect); ?>
+</div>
+  </section>
     <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
     <script src="js/jtimeline.js"></script>
     <script src="js/script.js"></script>
-    <!-- <script src="js/jquery.fancybox.js"></script> -->
     <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
     <script src="js/flickity.pkgd.min.js"></script>
     <link  href="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet">  
     <script src="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script>
+
   </body>
 </html>

@@ -402,9 +402,92 @@
     margin: 0 auto;
 }
 
-  .tourTopNewsBlock{
+.tourTopNewsBlock{
+background: white;
+padding: 29px;
+width: 559px;
+margin-top: 79px;
+}
+
+
+.popUpbg{
+    background: rgb(30, 30, 30);
+    height: 100%;
+    left: 0;
+    outline: none;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 99992;
+    opacity: 0;
+    transition-duration: inherit;
+    transition-property: opacity;
+    transition-timing-function: cubic-bezier(.47, 0, .74, .71);
+}
+
+#popUpBg{ 
+    opacity: .9;
+    transition-timing-function: cubic-bezier(.22, .61, .36, 1);
+}
+#posFix{
+    position: unset;
+}
+
+#popUp1{
+    display:none; 
+}
+  .mainPopup{
+    width: 80%; 
+    height: 100%;
+    margin: 0 auto;
     background: white;
-    padding: 29px;
-    width: 559px;
-    margin-top: 79px;
+    backface-visibility: hidden;
+    height: 100%;
+    left: 189px;
+    outline: none;
+    position: fixed;
+    -webkit-tap-highlight-color: transparent;
+    top: 0px;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    transform: translateZ(0px);
+    z-index: 99992;
+    box-sizing: border-box;
+    margin: 10px;
+    -webkit-backface-visibility: hidden;
+    transition-duration: 366ms;
   }
+
+  #close_button{
+    border: none;
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    position: absolute;
+    margin-left: 1230px;
+  }
+/* .popUp{
+    -webkit-backface-visibility: hidden;
+    height: 100%;
+    left: 0;
+    outline: none;
+    position: fixed;
+    -webkit-tap-highlight-color: transparent;
+    top: 0;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    transform: translateZ(0);
+    width: 100%;
+    z-index: 99992;
+}
+.popUp_window_bg {
+    background: rgb(30, 30, 30);
+    opacity: 0;
+    transition-duration: inherit;
+    transition-property: opacity;
+    transition-timing-function: cubic-bezier(.47, 0, .74, .71);
+}
+.open_window .popUp_window_bg{
+    opacity: .9;
+    transition-timing-function: cubic-bezier(.22, .61, .36, 1);
+} */
